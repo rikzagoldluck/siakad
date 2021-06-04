@@ -9,7 +9,7 @@ $xyz = $cekmgg%2;
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Jadwal Hari ini</title>
+    <title>Jadwal Hari itu</title>
   </head>
   <link rel="stylesheet" href="<?= base('assets/css/style.css'); ?>" media="screen" title="no title">
   <link rel="stylesheet" href="<?= base('assets/css/bootstrap.css'); ?>" media="screen" title="no title">
