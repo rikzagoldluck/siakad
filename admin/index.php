@@ -116,7 +116,7 @@ $up = mysqli_num_rows($jur_up);
         ]);
 
         var options = {
-          title : 'Grafik Data Siswa',
+          title : 'Grafik Data Mahasiswa',
           is3D : true
         }
 
@@ -201,7 +201,7 @@ $up = mysqli_num_rows($jur_up);
                 <ul class="dropdown-menu menu-data">
                   <li><a href="<?= base('admin/jadwal'); ?>">Data Jadwal</a></li>
                   <li><a href="<?= base('admin/guru'); ?>">Data Guru</a></li>
-                  <li><a href="<?= base('admin/siswa'); ?>">Data Siswa</a></li>
+                  <li><a href="<?= base('admin/siswa'); ?>">Data Mahasiswa</a></li>
                 </ul>
               </li>
               <li class="dropdown data-nilai">
@@ -289,7 +289,7 @@ $up = mysqli_num_rows($jur_up);
                       </tr>
                       <tr>
                         <td>2</td>
-                        <td>Siswa</td>
+                        <td>Mahasiswa</td>
                         <td><?= $jum_siswa; ?></td>
                       </tr>
                       <tr>
@@ -327,7 +327,7 @@ $up = mysqli_num_rows($jur_up);
                 <div class="col-md-6 graphic">
                   <div class="panel panel-default">
                     <div class="panel-heading">
-                      Grafik Data Siswa
+                      Grafik Data Mahasiswa
                     </div>
                     <div class="panel-body">
                       <div id="StudentChart"></div>
